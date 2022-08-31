@@ -1,0 +1,270 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+body{
+    background: #fff;
+    margin: 0 auto;
+}
+header{
+    padding: 10px;
+    width: 1035px;
+    margin: 0 auto;
+}
+#wrapper{
+    width: 1035px;
+    margin: 0 auto;
+}
+#logo img{
+    width: 165px;
+}
+nav a, #itemlogin a{
+    text-decoration: none;
+    color: black;
+    transition: 0.2s;
+}
+#itemlogin a{
+    font-size: 12px;
+    color: rgb(177, 177, 177);
+    padding-left: 18px;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 46px;
+}
+nav a .web{
+    color: rgb(22, 146, 146);
+}
+nav a .mobile{
+    color: rgb(218, 107, 107);
+}
+nav a .banner{
+    color: rgb(240, 190, 82);
+}
+#itemlogin a:hover{
+    color: rgb(119, 119, 119);
+}
+nav a:hover{
+    color: rgb(177, 177, 177);
+}
+nav a span:hover{
+    color: rgb(177, 177, 177);
+}
+header #logo{
+    display: inline-block;
+    margin: 45px 0;
+    margin-bottom: 60px;
+}
+header #itemlogin{
+    display: inline;
+    float: right;
+    margin: 45px 20px;
+}
+#intro1{
+    text-align: center;
+    margin-bottom: 70px;
+}
+h1{
+    font-size: 28px;
+    margin-top: 65px;
+    margin-bottom: 18px;
+}
+p{
+    font-size: 18px;
+    color: rgb(128, 128, 128);
+    line-height: 28px;   
+} 
+#intro1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+#intro2{
+    margin-top: 52px;
+    margin-bottom: 52px;
+}
+h2{
+    font-size: 18px;
+    padding-left: 10px;
+    margin-bottom: 45px;
+}
+#intro2 div{
+    display: inline-block;
+    width: 320px;
+    height: 230px;
+    margin: 10px;
+    text-align: center;
+    line-height: 230px;
+}
+#intro2 div a{
+    font-size: 22px;
+    color: #fff;
+    transition: 0.2s;
+}
+section .box1{
+    background: rgb(35, 151, 167);
+}
+section .box2{
+    background: rgb(218, 114, 107);
+}
+section .box3{
+    background: rgb(119, 119, 119);
+}
+#intro2 div:hover{
+    background: rgb(66, 66, 66);
+}
+#intro3{
+    margin-top: 50px;
+    margin-bottom: 52px;
+}
+#intro3 img{
+    display: inline-block;
+    width: 250px;
+    margin: 2.5px;
+}
+#intro3 .cls002 div{
+    display: inline-block;
+    margin-right: 160px;
+    line-height: 30px;
+}
+#intro3 .cls002 div:last-child{
+    margin-right: 0px;
+    margin-left: 8px;
+}
+#intro3 div a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+}
+#intro3 .cls002{
+    padding-left: 10px;
+} 
+#intro3 div a,span{
+    padding-left: 10px;
+}
+#intro4 {
+    height: 220px;
+}
+#intro4 div{
+    float: left;
+    display: inline-block;
+    width: 344px;
+    height: 180px;
+    margin: 0;
+    text-align: center;
+    border: 1px solid gray;
+    border-right: none;
+}
+#intro4 div:first-child{
+    border-left: none;
+}
+#intro4 span{
+    margin: px 20px;
+    letter-spacing: 3px;
+    line-height: 100px;
+    color: rgb(119, 119, 119);
+}
+#intro4 a{
+    text-decoration: none;
+    color: black;
+}
+#intro4 a:hover{
+    color: rgb(128, 128, 128);
+}
+#intro4 a i{
+    font-size: 28px;
+    margin-right: 10px;
+}
+input[type="text"]{
+    width: 200px;
+    height: 30px;
+    border: 1px solid rgb(177, 177, 177);
+}
+::placeholder{
+    color: rgb(177, 177, 177);
+    font-size: 12px;
+}
+input[type="submit"]{
+    width: 60px;
+    height: 30px;
+    background: black;
+    color: white;
+    font-size: 11px;
+    line-height: 27px;
+}
+input[type="submit"]:hover{
+    opacity: 0.5;
+}
+footer{
+    height: 150px;
+    text-align: center;
+}
+footer div img{
+    width: 240px;
+    margin-bottom: 40px;
+}
+address div{
+    font-size: 12px;
+    color: rgb(207, 205, 205);
+}
+.section input[type="radio"]{
+    display: none;
+}
+.section .slidewrap{
+    width: 100%;
+    margin: 0 auto;
+}
+.section .slidelist{
+    font-size: 0;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    clear: both;
+    margin: 0;
+    padding: 0;
+}
+.section .slidelist > li{
+    display: inline-block;
+    width: 100%;
+    transition: all 3s;
+    text-align: center;
+}
+.section .slidelist > .list01{
+    background: rgb(242,128,102);
+    width: 100%;
+}
+.section .slidelist > .list02{
+    background: rgb(123,125,129);
+    width: 100%;
+}
+.section .slidelist > .list03{
+    background: rgb(71,168,177);
+    width: 100%;
+}
+.section .slidelist label{
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 50px;
+    cursor:pointer;
+}
+.section .slidelist .left{
+    left: 30px;
+    background: url(images2/4115222-chevron-chevron-left-left_114035.png) center center/ 100% no-repeat;
+}
+.section .slidelist .right{
+    right: 30px;
+    background: url(images2/arrows_chevron_direction_left_move_next_right_icon_123222.png) center center/ 100% no-repeat;
+}
+.section [id="slide01"]:checked ~ .slidewrap .slidelist > li {
+    transform: translateX(0%);
+}
+.section [id="slide02"]:checked ~ .slidewrap .slidelist > li {
+    transform: translateX(-100%);
+}
+.section [id="slide03"]:checked ~ .slidewrap .slidelist > li {
+    transform: translateX(-200%);
+}
